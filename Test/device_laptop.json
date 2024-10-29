@@ -1,0 +1,52 @@
+[
+    {
+      "brand": "DELL",
+      "models": [
+        {"sl_no": 1, "Name": "Dell 15", "Price": 51990, "DisplaySize": "15 (38cm) FHD Display", "Processor": "Intel Core i5-1235U", "GraphicsCard": "Intel UHD", "Storage": "16GB DDR4 + 512GB SSD", "Weight":"1.69kg", "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDBgMTwRIBQPHH1q8l9ipzucj4X7NWr6MZNA&s"},
+        {"sl_no": 2, "Name": "Dell Gaming G15-5530", "Price": 80990, "DisplaySize": "15.6\" (39.62cm) FHD 120Hz 250 nits", "Processor":"Intel i5-13450HX" , "GraphicsCard": "NVIDIA RTX 3050", "Storage":"16GB DDR6+512GB SSD" , "Weight":"2.65kg", "image_url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/g-series/g15-5530/media-gallery/gray/non-touch/4-zone-rgb-kb/notebook-laptop-g15-5530-gray-gallery-1.psd?fmt=pjpg&pscan=auto&scl=1&wid=4280&hei=3108&qlt=100,1&resMode=sharp2&size=4280,3108&chrss=full&imwidth=5000"},
+        {"sl_no": 3, "Name": "Dell Inspiron 16-5430", "Price": 66490, "DisplaySize": "14.0\" (35.56cm) FHD", "Processor":  "Intel Core i5-1335U", "GraphicsCard":  "Intel UHD", "Storage": "16GB/ 512GB SSD" , "Weight":"1.59kg" },
+        {"sl_no": 4, "Name": "Dell Inspiron 15", "Price": 36479, "DisplaySize": "15.6\" (39.62Cms FHD", "Processor":  "12th Gen Intel Core i3-1215U", "GraphicsCard": "Integrated Graphics", "Storage":  "8GB, 512GB SSD", "Weight": "1.65kg"},
+        {"sl_no": 5, "Name": "Dell Inspiron 5430", "Price": 45490, "DisplaySize": "15.6\" (39.62cm) FHD A", "Processor": "Intel Core 12th Gen i5-1235U", "GraphicsCard": "Integrated Graphics", "Storage":  "8GB RAM, 512GB SSD", "Weight":  "1.82kg"}
+      ]
+    },
+    {
+      "brand": "ASUS",
+      "models": [
+        {"sl_no": 1, "Name": "Acer ALG", "Price": 53990, "DisplaySize": "39.62cm (15.6 inch) FHD", "Processor": "Intel Core i5", "GraphicsCard": "4GB RTX 2050", "Storage": "16GB RAM/512GB SSD", "Weight":"1.99KG" },
+        {"sl_no": 2, "Name": "ASUS Vivobook 15", "Price": 45999, "DisplaySize": "15.6\" (39.62 cm) FHD", "Processor":  "Intel Core i5-1235U", "GraphicsCard": "Integrated Intel Iris Xe Graphics", "Storage": "8GB RAM/512GB SSD", "Weight":"1.7 kg" },
+        {"sl_no": 3, "Name": "ASUS Zenbook S13 OLED", "Price": 89990, "DisplaySize": "13.3 Inch", "Processor":  "Intel Core EVO i5 13th Gen", "GraphicsCard": "Integrated Intel Iris Xe Graphics", "Storage": "16GB RAM /512GB SSD", "Weight":"1kg"},
+        {"sl_no": 4, "Name": "ASUS Chromebook CM14", "Price": 28897, "DisplaySize": "14\" (32.46 Cms) FHD", "Processor": "Octa-Core MediaTek Kompanio 520", "GraphicsCard": "Integrated Graphics", "Storage": "8GB RAM/128GB", "Weight": "1.45 Kg"},
+        {"sl_no": 5, "Name": "ASUS TUF Gaming F17", "Price": 60990, "DisplaySize": "17.3-inch (43.94 cm) FHD", "Processor": "Intel Core i5-11400H 11th Gen", "GraphicsCard": "4GB NVIDIA GeForce RTX 2050", "Storage": "16GB/1TB SSD", "Weight":"2.60 kg"}
+      ]
+    },
+    {
+      "brand": "HP",
+      "models": [
+        {"sl_no": 1, "Name": "HP Laptop 15S", "Price": 39990, "DisplaySize": "15.6-inch (39.6 cm)", "Processor": "AMD Ryzen 5 5500U", "GraphicsCard": "AMD Radeon Graphics", "Storage": "16GB DDR4, 512GB SSD", "Weight": "1.69 kg"},
+        {"sl_no": 2, "Name": "HP Laptop 15", "Price": 56011, "DisplaySize": "15.6-inch(39.6 cm)", "Processor": "Intel Core i5-1334U", "GraphicsCard": "Intel Iris X", "Storage": "16GB DDR4, 512GB SSD", "Weight": "1.59 kg"},
+        {"sl_no": 3, "Name": "HP Victus Gaming", "Price": 58729, "DisplaySize": "15.6-inch(39.6 cm)", "Processor": "12th Gen Intel Core i5-12450H", "GraphicsCard":  "4GB NVIDIA GeForce RTX 2050", "Storage": "16GB DDR4,512GB SSD", "Weight": "1.60Kg"},
+        {"sl_no": 4, "Name": "HP Laptop 15s-fq5329TU Silver", "Price": 51589, "DisplaySize": "15.6-inch (39.6 cm)", "Processor": "AMD Ryzen 7 5700U", "GraphicsCard": "AMD Radeon graphics", "Storage": "16GB DDR4, 512GB SSD", "Weight":  "1.69 kg"},
+        {"sl_no": 5, "Name": "HP Pavillion 14", "Price": 76990, "DisplaySize": "14 inch(35.6cm) FHD", "Processor":  "12th Gen Intel Core i7", "GraphicsCard": "Intel Iris Xe Graphics", "Storage": "16GB SDRAM/1TB SSD", "Weight": "1.74Kg"}
+      ]
+    },
+    {
+        "brand": "APPLE",
+        "models": [
+          {"sl_no": 1, "Name": "Apple MacBook Air Laptop M1 chip", "Price": 71990, "DisplaySize":  "13.3-inch/33.74 cm", "Processor": "8-Core CPU", "GraphicsCard":  "Integrated", "Storage":  "8GB RAM, 256GB SSD", "Weight": "1.29Kg"},
+          {"sl_no": 2, "Name": "Apple 2022 MacBook Air Laptop with M2 chip", "Price": 90990, "DisplaySize":  "34.46 cm (13.6-inch)", "Processor":  "8-core CPU", "GraphicsCard":  "Integrated", "Storage":  "8GB RAM, 256GB SSD", "Weight": "1.24Kg"},
+          {"sl_no": 3, "Name": "Apple 2024 MacBook Air M3 chip", "Price": 109115, "DisplaySize": "34.46 cm (13.6″)", "Processor":  "8-core CPU and up to 10-core GPU", "GraphicsCard": "Apple Integrated", "Storage":  "8GB Unified Memory, 256GB SSD", "Weight": "1.29Kg"},
+          {"sl_no": 4, "Name": "Apple MacBook Pro", "Price": 109116, "DisplaySize": "13.3-inch/33.74 cm", "Processor": "8-core CPU and up to 10-core GPU", "GraphicsCard": "Apple Integrated", "Storage": "24GB RAM / 2TB SSD", "Weight": "1.23Kg"}
+        ]
+      },
+      {
+        "brand": "LENOVO",
+        "models": [
+          {"sl_no": 1, "Name": "Lenovo IdeaPad Slim 3", "Price": 53890, "DisplaySize": "14\" (35.5cm)", "Processor": "12th Gen Intel Core i5-12450H", "GraphicsCard":  "Integrated Intel UHD", "Storage": "16GB/512GB SSD", "Weight": "1.37Kg"},
+          {"sl_no": 2, "Name": "Lenovo IdeaPad Slim 1", "Price": 39990, "DisplaySize": "15.6\"", "Processor": "AMD Ryzen 5 5500U", "GraphicsCard": "Integrated AMD Radeon Graphics", "Storage": "16GB/512GB SSD", "Weight": "1.61Kg"},
+          {"sl_no": 3, "Name": "Lenovo [Smartchoice] LOQ", "Price": 71490, "DisplaySize":  "39.62cm (15.6 inch) FHD", "Processor": "12th Gen Intel Core i5-12450HX", "GraphicsCard": "RTX 3050 6GB", "Storage":  "16GB/512GB SSD", "Weight": "1.24Kg"},
+          {"sl_no": 4, "Name": "Lenovo V15 Portable", "Price": 24990, "DisplaySize":  "15.6 FHD", "Processor": "Intel Dual Core", "GraphicsCard": "Integrated graphics", "Storage": "8GB RAM, 256GB SSD", "Weight": "1.60Kg"},
+          {"sl_no": 5, "Name": "Lenovo AMD Thinkbook 16 G6", "Price": 42990, "DisplaySize": "16\"", "Processor": "Ryzen 5", "GraphicsCard":  "Integrated graphics", "Storage": "16Gb Ram/512Gb", "Weight": "1.7 kg"}
+        ]
+      }
+  ]
+  

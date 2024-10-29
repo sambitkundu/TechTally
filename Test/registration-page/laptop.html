@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Tally - Mobile Comparison</title>
+    <img class= "bgimage" src="./images/newbg.png"></div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        .bgimage{
+            margin-top: 30px;
+            margin-left: 550px;
+            height: 250px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            text-align: center;
+            font-style: italic;
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        input {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .suggestions {
+            background-color: #333;
+            border: 1px solid #555;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .suggestion-item {
+            padding: 10px;
+            cursor: pointer;
+        }
+        .suggestion-item:hover {
+            background-color: #555;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #555;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>!!!...Laptop Comparison Made Simple...!!!</h1>
+        <h2>! Choose your favorable laptop model by tallying from the given information !</h2>
+        
+        <div class="search-container">
+            <input type="text" id="search1" placeholder="Enter first laptop model">
+            <button id="compareBtn">Compare</button>
+        </div>
+        <div id="suggestions1" class="suggestions"></div>
+        
+        <div class="search-container" id="search2Container" style="display: none;">
+            <input type="text" id="search2" placeholder="Enter second laptop model">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div id="suggestions2" class="suggestions"></div>
+        
+        <div id="comparisonTable"></div>
+    </div>
+
+    <script>
+        let selectedDevice1 = null;
+        let selectedDevice2 = null;
+
+        async function searchDevices(query) {
+            const response = await fetch(`http://127.0.0.1:5001/api/search/laptop?q=${encodeURIComponent(query)}`);
+            return await response.json();
+        }
+
+        function displaySuggestions(suggestions, containerId, inputId) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = '';
+            suggestions.forEach(device => {
+                console.log("Device:", device); // Check each device in the list
+                const div = document.createElement('div');
+                div.textContent = device.Name; // Ensure 'Name' exists in JSON
+                div.className = 'suggestion-item';
+                div.onclick = () => {
+                    document.getElementById(inputId).value = device.Name; // Confirm 'Name' field
+                    if (inputId === 'search1') {
+                        selectedDevice1 = device;
+                    } else {
+                        selectedDevice2 = device;
+                    }
+                    container.innerHTML = '';
+                    if (selectedDevice1 && selectedDevice2) {
+                        displayComparison();
+                    }
+                };
+                container.appendChild(div);
+            });
+        }
+
+
+        function displayComparison() {
+            const table = document.createElement('table');
+            table.innerHTML = `
+                <tr>
+                    <th>Specification</th>
+                    <th>${selectedDevice1.Name}</th>
+                    <th>${selectedDevice2.Name}</th>
+                </tr>
+                <tr>
+                    <td>Image</td>
+                    <td><img src="${selectedDevice1.image_url}" alt="${selectedDevice1.Name}" style="width: 100px;"></td>
+                    <td><img src="${selectedDevice2.image_url}" alt="${selectedDevice2.Name}" style="width: 100px;"></td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td>${selectedDevice1.Price}</td>
+                    <td>${selectedDevice2.Price}</td>
+                </tr>
+                <tr>
+                    <td>Display Size</td>
+                    <td>${selectedDevice1.DisplaySize}</td>
+                    <td>${selectedDevice2.DisplaySize}</td>
+                </tr>
+                <tr>
+                    <td>Battery</td>
+                    <td>${selectedDevice1.Processor}</td>
+                    <td>${selectedDevice2.Processor}</td>
+                </tr>
+                <tr>
+                    <td>Storage</td>
+                    <td>${selectedDevice1.GraphicsCard}</td>
+                    <td>${selectedDevice2.GraphicsCard}</td>
+                </tr>
+                <tr>
+                    <td>RAM</td>
+                    <td>${selectedDevice1.Storage}</td>
+                    <td>${selectedDevice2.Storage}</td>
+                </tr>
+                <tr>
+                    <td>RAM</td>
+                    <td>${selectedDevice1.Weight}</td>
+                    <td>${selectedDevice2.Weight}</td>
+                </tr>
+                <tr>
+                    <td>Amazon Link</td>
+                    <td><a href="${selectedDevice1.amazon_link}" target="_blank">View on Amazon</a></td>
+                    <td><a href="${selectedDevice2.amazon_link}" target="_blank">View on Amazon</a></td>
+                </tr>
+             `;
+            document.getElementById('comparisonTable').innerHTML = '';
+            document.getElementById('comparisonTable').appendChild(table);
+        }
+
+        document.getElementById('search1').addEventListener('input', async (e) => {
+            const query = e.target.value;
+            if (query.length > 2) {
+                const suggestions = await searchDevices(query);
+                displaySuggestions(suggestions, 'suggestions1', 'search1');
+            } else {
+                document.getElementById('suggestions1').innerHTML = '';
+            }
+        });
+
+        document.getElementById('search2').addEventListener('input', async (e) => {
+            const query = e.target.value;
+            if (query.length > 2) {
+                const suggestions = await searchDevices(query);
+                displaySuggestions(suggestions, 'suggestions2', 'search2');
+            } else {
+                document.getElementById('suggestions2').innerHTML = '';
+            }
+        });
+
+        document.getElementById('compareBtn').addEventListener('click', () => {
+            document.getElementById('search2Container').style.display = 'flex';
+        });
+
+        document.getElementById('searchBtn').addEventListener('click', () => {
+            if (selectedDevice1 && selectedDevice2) {
+                displayComparison();
+            }
+        });
+    </script>
+</body>
+</html>

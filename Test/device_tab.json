@@ -1,0 +1,49 @@
+[
+  {
+      "brand": "SAMSUNG",
+      "models": [
+          {"sl_no": 1, "Name": "Galaxy Tab S9 Ultra", "Price": 114999, "DisplaySize": "14.6 inches", "RefreshRate": "120 Hz", "Processor": "Snapdragon 8 Gen 2", "BatteryLife": "Up to 15 hours", "image_url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-x910nzaeinu/gallery/in-galaxy-tab-s9-ultra-wifi-x910-sm-x910nzaeinu-537869326?$650_519_PNG$"},
+          {"sl_no": 2, "Name": "Galaxy Tab S9+", "Price": 89999, "DisplaySize": "12.4 inches", "RefreshRate": "120 Hz", "Processor": "Snapdragon 8 Gen 2", "BatteryLife": "Up to 14 hours", "image_url": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1718797627/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/275406_0_jwxmz0.png?tr=w-600"},
+          {"sl_no": 3, "Name": "Galaxy Tab S9", "Price": 59999, "DisplaySize": "11 inches", "RefreshRate": "120 Hz", "Processor": "Snapdragon 8 Gen 2", "BatteryLife": "Up to 13 hours", "image_url": ""},
+          {"sl_no": 4, "Name": "Galaxy Tab A8", "Price": 23999, "DisplaySize": "10.5 inches", "RefreshRate": "60 Hz", "Processor": "Unisoc Tiger T618", "BatteryLife": "Up to 12 hours", "image_url": ""},
+          {"sl_no": 5, "Name": "Galaxy Tab S6 Lite (2024)", "Price": 29999, "DisplaySize": "10.4 inches", "RefreshRate": "60 Hz", "Processor": "Exynos 9611", "BatteryLife": "Up to 13 hours", "image_url": ""},
+          {"sl_no": 6, "Name": "Galaxy Tab A7 Lite (2024)", "Price": 19999, "DisplaySize": "8.7 inches", "RefreshRate": "60 Hz", "Processor": "Exynos 850", "BatteryLife": "Up to 12 hours", "image_url": ""},
+          {"sl_no": 7, "Name": "Galaxy Tab A8", "Price": 24999, "DisplaySize": "10.5 inches", "RefreshRate": "60 Hz", "Processor": "Unisoc T618", "BatteryLife": "Up to 10 hours", "image_url": ""},
+          {"sl_no": 8, "Name": "Galaxy Tab S6", "Price": 39999, "DisplaySize": "10.5 inches", "RefreshRate": "60 Hz", "Processor": "Snapdragon 855", "BatteryLife": "Up to 15 hours", "image_url": ""},
+          {"sl_no": 9, "Name": "Galaxy Tab S6 Lite", "Price": 29999, "DisplaySize": "10.4 inches", "RefreshRate": "60 Hz", "Processor": "Exynos 9611", "BatteryLife": "Up to 13 hours", "image_url": ""},
+          {"sl_no": 10, "Name": "Galaxy Tab A7 Lite", "Price": 29999, "DisplaySize": "10.4 inches", "RefreshRate": "60 Hz", "Processor": "Exynos 9611", "BatteryLife": "Up to 10 hours", "image_url": ""}
+      ]
+  },
+  {
+      "brand": "XIAOMI",
+      "models": [
+          {"sl_no": 1, "Name": "Xiaomi Pad 6", "Price": 24999, "DisplaySize": "11.0 inches", "RefreshRate": "144Hz", "Processor": "Snapdragon 870", "BatteryLife": "Up to 16 hours", "image_url": ""},
+          {"sl_no": 2, "Name": "Xiaomi Pad 6 Pro", "Price": 34999, "DisplaySize": "12.4 inches", "RefreshRate": "144Hz", "Processor": "Snapdragon 8 Gen 2", "BatteryLife": "Up to 22 hours", "image_url": ""},
+          {"sl_no": 3, "Name": "Xiaomi Redmi Pad SE", "Price": 19999, "DisplaySize": "11.0 inches", "RefreshRate": "90Hz", "Processor": "Snapdragon 680", "BatteryLife": "Up to 13 hours", "image_url": ""}
+      ]
+  },
+  {
+      "brand": "LENOVO",
+      "models": [
+          {"sl_no": 1, "Name": "Lenovo Tab Extreme", "Price": 98975, "DisplaySize": "14.5 inches", "RefreshRate": "120 Hz", "Processor": "MediaTek Dimensity 9000", "BatteryLife": "12,300 mAh", "image_url": ""},
+          {"sl_no": 2, "Name": "Lenovo Tab P12", "Price": 32999, "DisplaySize": "12.6 inches", "RefreshRate": "120 Hz", "Processor": "MediaTek Dimensity 7030", "BatteryLife": "10,200 mAh", "image_url": ""},
+          {"sl_no": 3, "Name": "Lenovo Xiaoxin Pad Pro 12.7", "Price": 40999, "DisplaySize": "12.7 inches", "RefreshRate": "120 Hz", "Processor": "MediaTek Dimensity 8300", "BatteryLife": "10,204 mAh", "image_url": ""}
+      ]
+  },
+  {
+      "brand": "APPLE",
+      "models": [
+          {"sl_no": 1, "Name": "iPad Pro 13-inch (2024)", "Price": 99900, "DisplaySize": "13 inches", "RefreshRate": "120 Hz", "Processor": "Apple M4", "BatteryLife": "Up to 10 hours", "image_url": ""},
+          {"sl_no": 2, "Name": "iPad Pro 11-inch (2024)", "Price": 89900, "DisplaySize": "11 inches", "RefreshRate": "120 Hz", "Processor": "Apple M4", "BatteryLife": "Up to 10 hours", "image_url": ""},
+          {"sl_no": 3, "Name": "iPad Air (5th Gen)", "Price": 69900, "DisplaySize": "10.9 inches", "RefreshRate": "60 Hz", "Processor": "Apple M1", "BatteryLife": "Up to 10 hours", "image_url": ""}
+      ]
+  },
+  {
+      "brand": "ONEPLUS",
+      "models": [
+          {"sl_no": 1, "Name": "OnePlus Pad", "Price": 37999, "DisplaySize": "11.61 inches", "RefreshRate": "144 Hz", "Processor": "MediaTek Dimensity 9000", "BatteryLife": "9,510 mAh", "image_url": ""},
+          {"sl_no": 2, "Name": "OnePlus Pad Go", "Price": 29999, "DisplaySize": "11.5 inches", "RefreshRate": "120 Hz", "Processor": "MediaTek Dimensity 6020", "BatteryLife": "7,500 mAh", "image_url": ""},
+          {"sl_no": 3, "Name": "OnePlus Pad (2024)", "Price": 39999, "DisplaySize": "11.61 inches", "RefreshRate": "144 Hz", "Processor": "MediaTek Dimensity 9000", "BatteryLife": "9,510 mAh", "image_url": ""}
+      ]
+  }
+]

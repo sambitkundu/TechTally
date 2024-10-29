@@ -1,0 +1,214 @@
+{
+    "tablets": [
+      {
+        "Name": "Galaxy Tab S9 Ultra", "Price": 114999,"DisplaySize": "14.6 inches", "RefreshRate": "120 Hz", "Processor": "Snapdragon 8 Gen 2", "BatteryLife": "Up to 15 hours", "brand": "SAMSUNG"
+       
+      },
+      {
+        "Name": "Galaxy Tab S9+", "Price": 89999, "DisplaySize": "12.4 inches", "RefreshRate": "120 Hz", "Processor": "Snapdragon 8 Gen 2", "BatteryLife": "Up to 14 hours", "brand": "SAMSUNG"
+      },
+      {
+        "Name": "Galaxy Tab S9", "Price": 59999, "DisplaySize": "11 inches", "RefreshRate": "120 Hz", "Processor": "Snapdragon 8 Gen 2", "BatteryLife": "Up to 13 hours", "brand": "SAMSUNG"
+      },
+      {
+        "Name": "Galaxy Tab A8", "Price": 23999, "DisplaySize": "10.5 inches", "RefreshRate": "60 Hz", "Processor": "Unisoc Tiger T618", "BatteryLife": "Up to 12 hours", "brand": "SAMSUNG"
+      },
+      {
+        "Name": "Galaxy Tab S6 Lite (2024)", "Price": 29999, "DisplaySize": "10.4 inches", "RefreshRate": "60 Hz", "Processor": "Exynos 9611", "BatteryLife": "Up to 13 hours", "brand": "SAMSUNG"
+      },
+      {
+        "Name": "Galaxy Tab A7 Lite (2024)", "Price": 19999, "DisplaySize": "8.7 inches", "RefreshRate": "60 Hz", "Processor": "Exynos 850", "BatteryLife": "Up to 12 hours", "brand": "SAMSUNG"
+      },
+      {
+        "Name": "Galaxy Tab A8", "Price": 24999, "DisplaySize": "10.5 inches", "RefreshRate": "60 Hz", "Processor": "Unisoc T618", "BatteryLife": "Up to 10 hours", "brand": "SAMSUNG"
+      },
+      {
+        "Name": "Galaxy Tab S6", "Price": 39999, "DisplaySize": "10.5 inches", "RefreshRate": "60 Hz", "Processor": "Snapdragon 855", "BatteryLife": "Up to 15 hours", "brand": "SAMSUNG"
+      },
+      {
+        "Name": "Galaxy Tab S6 Lite", "Price": 29999, "DisplaySize": "10.4 inches", "RefreshRate": "60 Hz", "Processor": "Exynos 9611", "BatteryLife": "Up to 13 hours",  "brand": "SAMSUNG"
+      },
+      {
+        "Name": "Galaxy Tab A7 Lite", "Price": 29999, "DisplaySize": "10.4 inches", "RefreshRate": "60 Hz", "Processor": "Exynos 9611", "BatteryLife": "Up to 10 hours", "brand": "SAMSUNG"
+      }
+    ]
+  }
+  {
+    "tablets": [
+      {
+        "Name": "Xiaomi Pad 6", "Price": 24999, "DisplaySize": "11.0 inches", "RefreshRate": "144Hz", "Processor": "Snapdragon 870", "BatteryLife": "Up to 16 hours", "brand": "Xiaomi"
+      },
+      {
+        "Name": "Xiaomi Pad 6 Pro", "Price": 34999, "DisplaySize": "12.4 inches", "RefreshRate": "144Hz", "Processor": "Snapdragon 8 Gen 2", "BatteryLife": "Up to 22 hours",  "brand": "Xiaomi"
+      },
+      {
+        "Name": "Xiaomi Redmi Pad SE", "Price": 19999, "DisplaySize": "11.0 inches", "RefreshRate": "90Hz", "Processor": "Snapdragon 680", "BatteryLife": "Up to 13 hours",  "brand": "Xiaomi"
+      },
+      {
+        "Name": "Xiaomi Pad 5", "Price": 22999, "DisplaySize": "11.0 inches", "RefreshRate": "120Hz", "Processor": "Snapdragon 860", "BatteryLife": "Up to 13 hours",  "brand": "Xiaomi"
+      },
+      {
+        "Name": "Xiaomi Pad 5 Pro", "Price": 29999, "DisplaySize": "11.0 inches", "RefreshRate": "120Hz", "Processor": "Snapdragon 870", "BatteryLife": "Up to 15 hours",  "brand": "Xiaomi"
+      },
+      {
+        "Name": "Xiaomi Mi Pad 4", "Price": 12999, "DisplaySize": "8.0 inches", "RefreshRate": "60Hz", "Processor": "Snapdragon 660", "BatteryLife": "Up to 12 hours",  "brand": "Xiaomi"
+      },
+      {
+        "Name": "Xiaomi Mi Pad 4 Plus", "Price": 15999, "DisplaySize": "10.1 inches", "RefreshRate": "60Hz", "Processor": "Snapdragon 660", "BatteryLife": "Up to 12 hours",  "brand": "Xiaomi"
+      },
+      {
+        "Name": "Xiaomi Pad 6S", "Price": 29999, "DisplaySize": "11.0 inches", "RefreshRate": "144Hz", "Processor": "Snapdragon 870", "BatteryLife": "Up to 15 hours",  "brand": "Xiaomi"
+      },
+      {
+        "Name": "Xiaomi Pad 6S Pro", "Price": 39999, "DisplaySize": "12.4 inches", "RefreshRate": "144Hz", "Processor": "Snapdragon 8 Gen 2", "BatteryLife": "Up to 22 hours", "brand": "Xiaomi"
+      },
+      {
+        "Name": "Xiaomi Mi Pad", "Price": 12999, "DisplaySize": "7.9 inches", "RefreshRate": "60Hz", "Processor": "NVIDIA Tegra K1", "BatteryLife": "Up to 10 hours",  "brand": "Xiaomi"
+      },
+      {
+        "Name": "Xiaomi Pad 5 Lite", "Price": 19999, "DisplaySize": "10.1 inches", "RefreshRate": "60Hz", "Processor": "Snapdragon 860", "BatteryLife": "Up to 12 hours",  "brand": "Xiaomi"
+      },
+      {
+        "Name": "Xiaomi Pad 6 Lite", "Price": 24999, "DisplaySize": "11.0 inches", "RefreshRate": "90Hz", "Processor": "Snapdragon 870", "BatteryLife": "Up to 14 hours", "brand": "REDMI"
+      },
+      {
+        "Name": "Xiaomi Pad 5 Pro 5G", "Price": 34999, "DisplaySize": "11.0 inches", "RefreshRate": "120Hz", "Processor": "Snapdragon 865", "BatteryLife": "Up to 15 hours", "brand": "Xiaomi"
+      },
+      {
+        "Name": "Xiaomi Pad 5 SE", "Price": 22999, "DisplaySize": "11.0 inches", "RefreshRate": "120Hz", "Processor": "Snapdragon 860", "BatteryLife": "Up to 13 hours", "brand": "Xiaomi"
+      }
+    ]
+  }
+  {
+    "tablets": [
+      {
+        "Name": "Lenovo Tab Extreme", "Price": 98975, "DisplaySize": "14.5 inches", "RefreshRate": "120 Hz", "Processor": "MediaTek Dimensity 9000", "BatteryLife": "12,300 mAh", "brand": "Lenovo"
+      },
+      {
+        "Name": "Lenovo Tab P12", "Price": 32999, "DisplaySize": "12.6 inches", "RefreshRate": "120 Hz", "Processor": "MediaTek Dimensity 7030", "BatteryLife": "10,200 mAh", "brand": "Lenovo"
+      },
+      {
+        "Name": "Lenovo Xiaoxin Pad Pro 12.7", "Price": 40999, "DisplaySize": "12.7 inches", "RefreshRate": "120 Hz", "Processor": "MediaTek Dimensity 8300", "BatteryLife": "10,204 mAh", "brand": "Lenovo"
+      },
+      {
+        "Name": "Lenovo Tab P11 Gen 2","Price": 16499, "DisplaySize": "11 inches", "RefreshRate": "60 Hz", "Processor": "Snapdragon 662", "BatteryLife": "7,700 mAh","brand": "Lenovo"
+      },
+      {
+        "Name": "Lenovo Tab P11", "Price": 20499, "DisplaySize": "11 inches", "RefreshRate": "60 Hz", "Processor": "Snapdragon 662", "BatteryLife": "7,700 mAh", "brand": "Lenovo"
+      },
+      {
+        "Name": "Lenovo Tab M10 Plus", "Price": 14799, "DisplaySize": "10.3 inches", "RefreshRate": "60 Hz", "Processor": "MediaTek Helio P22T", "BatteryLife": "5,000 mAh", "brand": "Lenovo"
+      },
+      {
+        "Name": "Lenovo Tab M8 (4th Gen)", "Price": 8199, "DisplaySize": "8 inches", "RefreshRate": "60 Hz", "Processor": "MediaTek Helio A22", "BatteryLife": "5,000 mAh", "brand": "Lenovo"
+      },
+      {
+        "Name": "Lenovo Chromebook Duet 5", "Price": 35499, "DisplaySize": "13.3 inches", "RefreshRate": "60 Hz", "Processor": "Qualcomm Snapdragon 7c", "BatteryLife": "7,000 mAh", "brand": "Lenovo"
+      },
+      {
+        "Name": "Lenovo Chromebook Duet 3", "Price": 24699, "DisplaySize": "10.1 inches", "RefreshRate": "60 Hz", "Processor": "MediaTek Helio P60T", "BatteryLife": "5,000 mAh", "brand": "Lenovo"
+      },
+      {
+        "Name": "Lenovo Tab K11 Plus", "Price": 20499, "DisplaySize": "11.45 inches", "RefreshRate": "90 Hz", "Processor": "Snapdragon 680", "BatteryLife": "8,600 mAh", "brand": "Lenovo"
+      },
+      {
+        "Name": "Lenovo Tab Plus 2024", "Price": 24699, "DisplaySize": "11 inches", "RefreshRate": "60 Hz", "Processor": "MediaTek Helio G99", "BatteryLife": "7,700 mAh", "brand": "Lenovo"
+      },
+      {
+        "Name": "Lenovo Tab P11 Pro Gen 2", "Price": 40999, "DisplaySize": "11.2 inches", "RefreshRate": "120 Hz", "Processor": "Snapdragon 870", "BatteryLife": "8,600 mAh", "brand": "Lenovo"
+      },
+      {
+        "Name": "Lenovo Tab M10 (2nd Gen)", "Price": 12299, "DisplaySize": "10.1 inches", "RefreshRate": "60 Hz", "Processor": "MediaTek Helio P22T", "BatteryLife": "4,850 mAh", "brand": "Lenovo"
+      },
+      {
+        "Name": "Lenovo Tab M8 (3rd Gen)", "Price": 10699, "DisplaySize": "8 inches", "RefreshRate": "60 Hz", "Processor": "MediaTek Helio A22", "BatteryLife": "5,000 mAh", "brand": "Lenovo"
+      }
+    ]
+  }
+  {
+    "tablets": [
+      {
+        "Name": "iPad Pro 13-inch (2024)", "Price": 99900, "DisplaySize": "13 inches", "RefreshRate": "120 Hz", "Processor": "Apple M4", "BatteryLife": "Up to 10 hours", "brand": "Apple"
+      },
+      {
+        "Name": "iPad Pro 11-inch (2024)", "Price": 89900, "DisplaySize": "11 inches", "RefreshRate": "120 Hz", "Processor": "Apple M4", "BatteryLife": "Up to 10 hours",  "brand": "Apple"
+      },
+      {
+        "Name": "iPad Air (5th Gen)", "Price": 69900, "DisplaySize": "10.9 inches", "RefreshRate": "60 Hz", "Processor": "Apple M1", "BatteryLife": "Up to 10 hours", "brand": "Apple"
+      },
+      {
+        "Name": "iPad (10th Gen)", "Price": 59900, "DisplaySize": "10.9 inches", "RefreshRate": "60 Hz", "Processor": "A14 Bionic", "BatteryLife": "Up to 10 hours", "brand": "Apple"
+      },
+      {
+        "Name": "iPad mini (6th Gen)", "Price": 49900, "DisplaySize": "8.3 inches", "RefreshRate": "60 Hz", "Processor": "A15 Bionic", "BatteryLife": "Up to 10 hours", "brand": "Apple"
+      },
+      {
+        "Name": "iPad (9th Gen)", "Price": 29900, "DisplaySize": "10.2 inches", "RefreshRate": "60 Hz", "Processor": "A13 Bionic", "BatteryLife": "Up to 10 hours", "brand": "Apple"
+      },
+      {
+        "Name": "iPad Pro 12.9-inch (2022)", "Price": 119900, "DisplaySize": "12.9 inches", "RefreshRate": "120 Hz", "Processor": "Apple M1", "BatteryLife": "Up to 10 hours",  "brand": "Apple"
+      },
+      {
+        "Name": "iPad Air (4th Gen)", "Price": 54900,  "DisplaySize": "10.9 inches", "RefreshRate": "60 Hz", "Processor": "A14 Bionic", "BatteryLife": "Up to 10 hours", "brand": "Apple"
+      },
+      {
+        "Name": "iPad (8th Gen)", "Price": 29900, "DisplaySize": "10.2 inches", "RefreshRate": "60 Hz", "Processor": "A12 Bionic", "BatteryLife": "Up to 10 hours", "brand": "Apple"
+      },
+      {
+        "Name": "iPad mini (5th Gen)", "Price": 34900, "DisplaySize": "7.9 inches", "RefreshRate": "60 Hz", "Processor": "A12 Bionic", "BatteryLife": "Up to 10 hours", "brand": "Apple"
+      },
+      {
+        "Name": "iPad Pro 11-inch (2022)", "Price": 89900, "DisplaySize": "11 inches", "RefreshRate": "120 Hz", "Processor": "Apple M1", "BatteryLife": "Up to 10 hours", "brand": "Apple"
+      },
+      {
+        "Name": "iPad (7th Gen)", "Price": 29900, "DisplaySize": "10.2 inches", "RefreshRate": "60 Hz", "Processor": "A10 Fusion", "BatteryLife": "Up to 10 hours", "brand": "Apple"
+      }
+    ]
+  }
+  {
+    "tablets": [
+      {
+        "Name": "OnePlus Pad", "Price": 37999, "DisplaySize": "11.61 inches", "RefreshRate": "144 Hz", "Processor": "MediaTek Dimensity 9000", "BatteryLife": "9,510 mAh", "brand": "OnePlus"
+      },
+      {
+        "Name": "OnePlus Pad Go", "Price": 29999, "DisplaySize": "11.5 inches", "RefreshRate": "120 Hz", "Processor": "MediaTek Dimensity 6020", "BatteryLife": "7,500 mAh", "brand": "OnePlus"
+      },
+      {
+        "Name": "OnePlus Pad (2024)", "Price": 39999, "DisplaySize": "11.61 inches", "RefreshRate": "144 Hz", "Processor": "MediaTek Dimensity 9000", "BatteryLife": "9,510 mAh", "brand": "OnePlus"
+      },
+      {
+        "Name": "OnePlus Pad Go (2024)", "Price": 32999, "DisplaySize": "11.5 inches", "RefreshRate": "120 Hz", "Processor": "MediaTek Dimensity 6020", "BatteryLife": "7,500 mAh", "brand": "OnePlus"
+      },
+      {
+        "Name": "OnePlus Pad Pro", "Price": 49999, "DisplaySize": "12.4 inches", "RefreshRate": "120 Hz", "Processor": "MediaTek Dimensity 1200", "BatteryLife": "10,000 mAh", "brand": "OnePlus"
+      },
+      {
+        "Name": "OnePlus Tab 10", "Price": 19999, "DisplaySize": "10.1 inches", "RefreshRate": "60 Hz", "Processor": "MediaTek Helio G80", "BatteryLife": "6,000 mAh", "brand": "OnePlus"
+      },
+      {
+        "Name": "OnePlus Tab 8", "Price": 15999, "DisplaySize": "8 inches", "RefreshRate": "60 Hz", "Processor": "MediaTek Helio P22", "BatteryLife": "4,000 mAh", "brand": "OnePlus"
+      },
+      {
+        "Name": "OnePlus Tab 7", "Price": 12999, "DisplaySize": "7 inches", "RefreshRate": "60 Hz", "Processor": "MediaTek MT8768", "BatteryLife": "3,000 mAh", "brand": "OnePlus"
+      },
+      {
+        "Name": "OnePlus Tab 6", "Price": 10999, "DisplaySize": "6 inches", "RefreshRate": "60 Hz", "Processor": "MediaTek MT8167D", "BatteryLife": "2,500 mAh", "brand": "OnePlus"
+      },
+      {
+        "Name": "OnePlus Tab 5", "Price": 9999, "DisplaySize": "5 inches", "RefreshRate": "60 Hz", "Processor": "MediaTek MT8163", "BatteryLife": "2,000 mAh", "brand": "OnePlus"
+      },
+      {
+        "Name": "OnePlus Tab 4", "Price": 8999, "DisplaySize": "4 inches", "RefreshRate": "60 Hz", "Processor": "MediaTek MT8163", "BatteryLife": "1,500 mAh", "brand": "OnePlus"
+      },
+      {
+        "Name": "OnePlus Tab 3", "Price": 7999, "DisplaySize": "3 inches", "RefreshRate": "60 Hz", "Processor": "MediaTek MT8163", "BatteryLife": "1,200 mAh", "brand": "OnePlus"
+      },
+      {
+        "Name": "OnePlus Tab 2", "Price": 6999, "DisplaySize": "2 inches", "RefreshRate": "60 Hz", "Processor": "MediaTek MT8163", "BatteryLife": "1,000 mAh", "brand": "OnePlus"
+      },
+      {
+        "Name": "OnePlus Tab 1", "Price": 5999, "DisplaySize": "1 inch", "RefreshRate": "60 Hz", "Processor": "MediaTek MT8163", "BatteryLife": "800 mAh", "brand": "OnePlus"
+      }
+    ]
+  }
+        
