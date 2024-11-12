@@ -23,7 +23,7 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
 const corsOptions = {
-    origin: 'http://127.0.0.1:5500',  // Change this to the exact URL of your frontend
+    origin: 'https://sambitkundu.github.io/TechTally/Test/registration-page/index.html',  // Change this to the exact URL of your frontend
   };
   app.use(cors(corsOptions));
 
